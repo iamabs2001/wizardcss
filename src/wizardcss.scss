@@ -1,4 +1,11 @@
 // variables
-$green : #0c9e13;
+$blue : #0361cc;
+$green : #11bd1a;
+$orange : #FF5722;
+$indigo : #303F9F;
+$yellow : #FFEB3B;
+$purple : #7B1FA2;
+$pink : #f50057;
 
 // style components
+@import "./components/button.scss";

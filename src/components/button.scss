@@ -1,0 +1,51 @@
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.10em;
+    color: #24292e;
+    background-color: #eff3f6;
+}
+
+.btn-disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.btn-blue {
+    color: #fff;
+    background-color: $blue;
+}
+
+.btn-green {
+    color:white;
+    background-color: $green;
+}
+
+.btn-orange {
+    color:white;
+    background-color: $orange;
+}
+
+.btn-purple {
+    color:white;
+    background-color: $purple;
+}
+
+.btn-pink {
+    color: white;
+    background-color: $pink;
+}

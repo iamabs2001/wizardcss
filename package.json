@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack && rm -r dist/main.js",
     "prod": "webpack -p && rm -r dist/main.js",
+    "dev": "webpack --watch",
     "test": "echo \"No Test\""
   },
   "author": "Abhijeet Sharma",
