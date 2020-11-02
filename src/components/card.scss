@@ -1,0 +1,20 @@
+.card {
+    border-radius: 6px;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-text {
+    color:#404040;
+    font-size: 16px;
+}
+
+.card-title {
+    color:#252525;
+    font-size: 28px;
+}

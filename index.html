@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="./dist/wizardcss.min.css">
     <link rel="icon" href="./icon.png">
 </head>
-<body>
+<body style="background-color: #dddddd">
     <img src="icon.png" width="50px" height="50px"><br><br>
     
-    <fieldset>
-        <legend>buttons</legend>
+    <h1>buttons</h1>
+    <div class="card" style="background-color: white">
         <button class="btn">.btn</button>
         <button class="btn btn-blue">.btn-blue</button>
         <button class="btn btn-green">.btn-green</button>
@@ -20,9 +20,22 @@
         <button class="btn btn-purple">.btn-purple</button>
         <button class="btn btn-orange">.btn-orange</button>
         <button class="btn btn-pink">.btn-pink</button>
-        <button class="fab">.fab</button>
         <button class="btn btn-purple ripple ">.ripple</button>
-    </fieldset>
+        <button class="fab">.fab</button>
+    </div>
     
+    <h1>Card</h1>
+    <div class="card" style="background-color: white;width: 250px">
+        <center><img src="icon.png" width="100px" height="100px"></center>
+        <center><p class="card-title"> wizardcss </p></center>
+        <p class="card-text">wizardcss is css framework with animations and zero dependency.
+            This card is created using 
+            <i><b><u>.card</u></b>
+            <b><u>.card-title</u></b>
+            <b><u>.card-text</u></b></i>
+        </p><hr>
+        <a class="btn btn-blue ripple">read more</a>
+    </div>
+
 </body>
 </html>
