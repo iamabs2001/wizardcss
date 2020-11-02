@@ -13,3 +13,6 @@
 
 > # Components
 - [x] Buttons
+
+> # Animations
+- [x] Ripple

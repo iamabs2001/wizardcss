@@ -6,6 +6,8 @@ $indigo : #303F9F;
 $yellow : #FFEB3B;
 $purple : #7B1FA2;
 $pink : #f50057;
+$amber : #ffc400;
 
 // style components
+@import "./components/animation.scss";
 @import "./components/button.scss";
