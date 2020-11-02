@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Demo </title>
+    <meta name="description" content="Wizardcss - A Simple, Minimalistic, Zero Dependency css framework.">
+    <meta name="keywords" content="Wizardcss, wizard, css, framework, css framework"/>
+    <title> Wizardcss - CSS Framework </title>
     <link rel="stylesheet" href="./dist/wizardcss.min.css">
     <link rel="icon" href="./icon.png">
 </head>
-<body style="background-color: #dddddd">
+<body style="background-color: #dddddd;margin: 40px;">
     <img src="icon.png" width="50px" height="50px"><br><br>
     
     <h1>buttons</h1>
@@ -35,6 +37,33 @@
             <b><u>.card-text</u></b></i>
         </p><hr>
         <a class="btn btn-blue ripple">read more</a>
+    </div>
+
+    <h1>Form</h1>
+    <div class="card" style="background-color: white;width: 300px">
+        <h2 align="center" class="card-title">Register</h2>
+        
+        <label class="label">Username </label>
+        <input type="text" class="form-field" placeholder=".form-field"><br>
+
+        <label class="label">Password </label>
+        <input type="text" class="form-field" placeholder=".form-field"><br>
+
+        <select class="select" name="option">
+            <option value="" disabled selected>Choose Your Language</option>
+            <option value="1">Java</option>
+            <option value="2">kotlin</option>
+            <option value="3">Javascript</option>
+            <option value="4">Typescript</option>
+        </select><br><br>
+
+        <input type="radio" name="gender" class="radio"> male
+        <input type="radio" name="gender" class="radio"> female <br><br>
+
+        <input class="checkbox" type="checkbox" checked="checked">
+        <label class="label">Subscription</label><br><br>
+
+        <button type="button" class="btn btn-pink ripple">Login</button>
     </div>
 
 </body>

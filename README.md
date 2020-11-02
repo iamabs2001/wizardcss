@@ -1,4 +1,4 @@
-# Wizardcss 
+# Wizardcss
 
 <img src="icon.png" width="100px" height="100px">
 
@@ -17,6 +17,8 @@
 
 > ## Components
 - [x] Buttons
+- [x] Card
+- [x] form
 
 > ## Animations
 - [x] Ripple
