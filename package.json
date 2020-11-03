@@ -2,6 +2,7 @@
   "name": "wizardcss",
   "version": "0.0.1",
   "description": "A Simple, Minimalistic, Zero Dependency css",
+  "keywords": ["css","css-framework","wizardcss","scss","ui","ui-framework","framework"],
   "main": "index.js",
   "scripts": {
     "build": "webpack && rm -r dist/main.js",
@@ -9,8 +10,21 @@
     "dev": "webpack --watch",
     "test": "echo \"No Test\""
   },
-  "author": "Abhijeet Sharma",
+  "author": {
+    "name": "Abhijeet Sharma",
+    "email": "abhijeetsharma248@gmail.com",
+    "url": "https://iamabs2001.github.io"
+  },
+  "private":"false",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamabs2001/wizardcss"
+  },
+  "bugs": {
+    "url": "https://github.com/iamabs2001/wizardcss/issues",
+    "email": "abhijeetsharma248@gmail.com"
+  },
   "devDependencies": {
     "css-loader": "^5.0.0",
     "extract-loader": "^3.0.0",

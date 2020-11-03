@@ -1,4 +1,4 @@
-# Wizardcss
+# :jack_o_lantern: Wizardcss
 
 <img src="icon.png" width="100px" height="100px">
 
@@ -7,7 +7,7 @@
 
 <a href="https://iamabs2001.github.io/wizardcss/"> Demo & Documentations </a>
 
-# Why wizardcss
+# :purple_heart: Why wizardcss
 
 - [x] Simple
 - [x] Minimalistic
@@ -15,15 +15,18 @@
 - [x] No Js Required
 - [x] Animations
 
-> ## Components
+> ## :rainbow: Components
 - [x] Buttons
 - [x] Card
 - [x] form
 
-> ## Animations
+> ## :fire: Animations
 - [x] Ripple
+- [x] spin
+- [x] fade
+- [x] slide in & out /marquee 
 
-> ## Browsers Support 
+> ## :cyclone: Browsers Support 
 - [x] Chrome
 - [x] Firefox
 - [x] Safari
