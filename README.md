@@ -7,6 +7,9 @@
 
 <a href="https://iamabs2001.github.io/wizardcss/"> Demo & Documentations </a>
 
+``` npm i wizardcss ``` <br>
+``` <link rel="stylesheet" href="node_modules/wizardcss/dist/wizardcss.min.css"> ```
+
 # :purple_heart: Why wizardcss
 
 - [x] Simple
