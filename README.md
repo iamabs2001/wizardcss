@@ -18,7 +18,8 @@
 > ## :rainbow: Components
 - [x] Buttons
 - [x] Card
-- [x] form
+- [x] Form
+- [x] Panel
 
 > ## :fire: Animations
 - [x] Ripple
