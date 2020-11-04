@@ -45,6 +45,7 @@ OR <br><br>
 - [x] fade
 - [x] Marquee
 - [x] Hover grow
+- [x] Shake
 
 > ## :cyclone: Browsers Support 
 - [x] Chrome
