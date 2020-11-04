@@ -1,0 +1,17 @@
+.img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.img-bw {
+    filter: grayscale(100%);
+}
+
+.img-sepia {
+    filter: sepia(100%);
+}
+
+.img-blur {
+    .blur {filter: blur(4px);}
+}

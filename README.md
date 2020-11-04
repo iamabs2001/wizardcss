@@ -30,6 +30,7 @@ OR <br><br>
 - [x] Panel
 - [x] Tooltip
 - [x] Table
+- [x] Image
 
 > ## :fire: Animations
 - [x] Ripple
