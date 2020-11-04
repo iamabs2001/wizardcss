@@ -1,0 +1,41 @@
+.loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+.loader-blue {
+    border-top: 8px solid $blue;
+}
+
+.loader-orange {
+    border-top: 8px solid $orange;
+}
+
+.loader-yellow {
+    border-top: 8px solid $yellow;
+}
+
+.loader-purple {
+    border-top: 8px solid $purple;
+}
+
+.loader-indigo {
+    border-top: 8px solid $indigo;
+}
+
+.loader-pink {
+    border-top: 8px solid $pink;
+}
+
+.loader-green {
+    border-top: 8px solid $green;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

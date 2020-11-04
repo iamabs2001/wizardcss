@@ -21,6 +21,7 @@ OR <br><br>
 - [x] Minimalistic
 - [x] Zero Dependency
 - [x] No Js Required
+- [x] Modern CSS3
 - [x] Animations
 
 > ## :rainbow: Components
@@ -31,6 +32,7 @@ OR <br><br>
 - [x] Tooltip
 - [x] Table
 - [x] Image
+- [x] Loader
 
 > ## :fire: Animations
 - [x] Ripple
