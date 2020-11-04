@@ -13,7 +13,7 @@
 ``` npm i wizardcss ``` <br><br>
 ``` <link rel="stylesheet" href="node_modules/wizardcss/dist/wizardcss.min.css"> ``` <br><br>
 OR <br><br>
-``` <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wizardcss@0.0.1/dist/wizardcss.min.css"> ```
+``` <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wizardcss@0.0.3/dist/wizardcss.min.css"> ```
 
 # :purple_heart: Why wizardcss
 
@@ -34,6 +34,7 @@ OR <br><br>
 - [x] Image
 - [x] Loader
 - [x] Breadcrumb
+- [x] Dropdown
 
 > ## :triangular_ruler: Layouts
 - [x] Grid
