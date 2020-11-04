@@ -28,6 +28,7 @@ OR <br><br>
 - [x] Card
 - [x] Form
 - [x] Panel
+- [x] Tooltip
 
 > ## :fire: Animations
 - [x] Ripple
