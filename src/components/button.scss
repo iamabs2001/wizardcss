@@ -25,6 +25,28 @@
     border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
+.btn-group {
+    display: flex;
+    border: .0625rem solid var(--button-group-border-color);
+    border-radius: var(--universal-border-radius);
+    margin: var(--universal-margin);
+}
+
+.btn-group>:not(:first-child) {
+    border-left: 1px solid var(--btn-group-border-color);
+    border-radius: 0px;
+}
+
+.btn-group>:first-child {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.btn-group>:last-child {
+    border-top-right-radius: 0.20em;
+    border-bottom-right-radius: 0.20em;
+}
+
 .fab {
     box-shadow: 0 6px 10px 0 #666;
     transition: all 0.1s ease-in-out;
