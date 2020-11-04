@@ -33,6 +33,7 @@ OR <br><br>
 - [x] Table
 - [x] Image
 - [x] Loader
+- [x] Breadcrumb
 
 > ## :triangular_ruler: Layouts
 - [x] Grid
@@ -50,4 +51,4 @@ OR <br><br>
 - [x] Safari
 - [x] Opera
 - [x] Edge
-- [] IE9
+- [ ] IE9
