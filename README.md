@@ -34,6 +34,9 @@ OR <br><br>
 - [x] Image
 - [x] Loader
 
+> ## :triangular_ruler: Layouts
+- [x] Grid
+
 > ## :fire: Animations
 - [x] Ripple
 - [x] spin
@@ -47,3 +50,4 @@ OR <br><br>
 - [x] Safari
 - [x] Opera
 - [x] Edge
+- [] IE9
