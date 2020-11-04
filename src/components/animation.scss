@@ -70,3 +70,12 @@
         width: 100%;
     }
 }
+
+.anim-hover-grow {
+    transition:transform 0.3s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+.anim-hover-grow:hover {
+    transform:scale(1.30);
+}

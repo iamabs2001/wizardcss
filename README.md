@@ -4,6 +4,7 @@
 
 ![MIT](https://img.shields.io/badge/license-Apache%202-blue)
 ![npm](https://img.shields.io/npm/v/wizardcss)
+![npm](https://img.shields.io/npm/dt/wizardcss)
 ![GitHub file size in bytes](https://img.shields.io/github/size/iamabs2001/wizardcss/dist/wizardcss.min.css?label=production%20size&color=purple)
 ![Build Status](https://travis-ci.org/iamabs2001/wizardcss.svg?branch=master)
 
@@ -32,7 +33,8 @@ OR <br><br>
 - [x] Ripple
 - [x] spin
 - [x] fade
-- [x] slide in & out /marquee 
+- [x] Marquee
+- [x] Hover grow
 
 > ## :cyclone: Browsers Support 
 - [x] Chrome
