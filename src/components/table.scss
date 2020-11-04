@@ -1,0 +1,30 @@
+.table, .table-all {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+}
+
+.table-responsive {
+    display: block;
+    overflow-x: auto;
+}
+
+.table-striped tbody tr:nth-child(even) {
+    background-color: rgba(216, 216, 216, 0.719);
+}
+
+.table-bordered tr, .w3-table-all tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.table-all {
+    border: 1px solid #ccc;
+}
+
+.table td, .table th, .table-all td, .table-all th {
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
