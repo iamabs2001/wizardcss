@@ -10,10 +10,15 @@
 
 <a href="https://iamabs2001.github.io/wizardcss/"> Demo & Documentations </a>
 
-``` npm i wizardcss ``` <br><br>
-``` <link rel="stylesheet" href="node_modules/wizardcss/dist/wizardcss.min.css"> ``` <br><br>
-OR <br><br>
-``` <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wizardcss@0.0.3/dist/wizardcss.min.css"> ```
+``` npm i wizardcss ```
+```html 
+<link rel="stylesheet" href="node_modules/wizardcss/dist/wizardcss.min.css"> 
+```
+OR <br>
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wizardcss@0.0.3/dist/wizardcss.min.css"> 
+```
 
 # :purple_heart: Why wizardcss
 
