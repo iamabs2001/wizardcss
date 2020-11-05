@@ -40,6 +40,7 @@ OR <br>
 - [x] Loader
 - [x] Breadcrumb
 - [x] Dropdown
+- [x] Progress
 
 > ## :triangular_ruler: Layouts
 - [x] Grid
