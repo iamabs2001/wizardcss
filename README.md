@@ -17,7 +17,7 @@
 OR <br>
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wizardcss@0.0.3/dist/wizardcss.min.css"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wizardcss@0.0.4/dist/wizardcss.min.css"> 
 ```
 
 # :purple_heart: Why wizardcss
