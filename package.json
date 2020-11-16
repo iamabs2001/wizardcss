@@ -1,6 +1,6 @@
 {
   "name": "wizardcss",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A Simple, Minimalistic, Zero Dependency css with animations",
   "keywords": ["css","css-framework","wizardcss","scss","ui","ui-framework","framework"],
   "main": "index.js",
