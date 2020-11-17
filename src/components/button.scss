@@ -108,6 +108,10 @@
     color: #0000ff;
 }
 
+.btn-outline:focus {
+    border-color: #0361ccbd;
+}
+
 .btn-outline:hover {
     background-color:$blue;
     color: white;
@@ -136,15 +140,18 @@
 }
 
 .btn-flat {
-    background-color: rgba(0, 0, 0, 0.060);
-    border: none;
+    background-color: #f1f1f1;
+    border: 1px solid #f1f1f1;
     outline: none;
+    transition-duration: 0.4s;
 }
 
 .btn-flat:hover {
-    background-color: rgba(0, 0, 0, 0.100);
+    background-color: #d8d8d8;
+    border: 1px solid  #d8d8d8;
 }
 
-.btn-flat:focus{
-    border: none;
+.btn-flat:focus {
+    outline: none;
+    border: 1px solid  #d8d8d8;
 }

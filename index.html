@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Wizardcss - A Simple, Minimalistic, Zero Dependency css framework.">
-    <meta name="keywords" content="Wizardcss, wizard, css, framework, css framework"/>
+    <meta name="keywords" content="Wizardcss,wizard css, wizard, css, framework, css framework"/>
     <title> Wizardcss - CSS Framework </title>
     <link rel="stylesheet" href="./dist/wizardcss.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -22,12 +22,12 @@
 <body style="background-color: #dddddd;margin: 40px;">
     <img src="icon.png" width="50px" height="50px"><br><br>
     
-    <h1>buttons</h1>
+    <h1>Buttons</h1>
     <div class="card" style="background-color: white">
         <button class="btn">.btn</button>
         <button class="btn btn-blue">.btn-blue</button>
         <button class="btn btn-green">.btn-green</button>
-        <button class="btn btn-disabled">.btn-disabled</button>
+        <button class="btn btn-disabled" disabled>.btn-disabled</button>
         <button class="btn btn-purple">.btn-purple</button>
         <button class="btn btn-orange">.btn-orange</button>
         <button class="btn btn-pink">.btn-pink</button>
@@ -40,14 +40,15 @@
         <button class="fab ripple"><i class="material-icons">delete</i></button>
         <p><pre>.btn-group</pre></p>
         <div class="btn-group">
-            <button class="btn">.btn-group</button>
-            <button class="btn">.btn</button>
-            <button class="btn">Hooorey</button>
+            <button class="btn"><i class="material-icons">play_arrow</i></button>
+            <button class="btn"><i class="material-icons">pause</i></button>
+            <button class="btn"><i class="material-icons">stop</i></button>
         </div>
     </div>
     
     <h1>Card</h1>
     <div class="card col" style="background-color: white;width: 250px">
+        <button class="btn-icon ripple"><i class="material-icons">wifi</i></button>
         <center><img src="icon.png" width="100px" height="100px"></center>
         <center><p class="card-title"> wizardcss </p></center>
         <p class="card-text">wizardcss is css framework with animations and zero dependency.
@@ -66,13 +67,13 @@
             <li><a href="#">npm</a></li>
             <li><a href="#">package</a></li>
             <li><a href="#">wizardcss</a></li>
-            <li>v0.0.6</li>
+            <li>v0.0.8</li>
         </ul>
     </div>
 
     <h1>Form</h1>
     <div class="card col" style="background-color: white;width: 300px">
-        <h2 align="center" class="card-title">Register</h2>
+        <h2 align="center" class="card-title"> <i class="material-icons">login</i> Register</h2>
         
         <label class="label">Username </label>
         <input type="text" class="form-field" placeholder=".form-field"><br>
@@ -97,26 +98,27 @@
         <button type="button" class="btn btn-pink ripple">Login</button>
     </div>
 
-    <h1>Animation</h1>
-    <div class="card col" style="background-color: white;width: 300px;">
+    <h1>Animations</h1>
+    <div class="card col" style="background-color: white;width: 300px;overflow: hidden;">
         <p><pre>.anim-spin</pre></p>
-        <img class="anim-spin" src="icon.png" width="50px" height="50px"><br>
+        <i class="material-icons anim-spin" style="font-size: 50px">group_work</i><br>
 
         <p><pre>.anim-fade</pre></p>
-        <img class="anim-fade" src="icon.png" width="50px" height="50px"><br>
+        <i class="material-icons anim-fade" style="font-size: 50px">online_prediction</i><br>
 
         <p><pre>.anim-hover-grow</pre></p>
-        <img class="anim-hover-grow" src="icon.png" width="50px" height="50px"><br>
+        <i class="material-icons anim-hover-grow" style="font-size: 50px">touch_app</i><br>
 
         <p><pre>.anim-shake</pre></p>
-        <img class="anim-shake" src="icon.png" width="50px" height="50px">
+        <i class="material-icons anim-shake" style="font-size: 50px">vibration</i><br>
 
         <p><pre>.anim-marquee</pre></p>
+        <i class="material-icons anim-marquee" style="font-size: 50px">airport_shuttle</i><br>
         <p class="card-text">its a marquee animation that slide in and out from left to right for infinite duration.</p><br>
 
     </div>
 
-    <h1>Panel</h1>
+    <h1>Panels</h1>
     <div class="panel panel-blue panel-left">
         <p><pre>.panel .panel-blue .panel-left</pre></p>
     </div>
@@ -197,7 +199,7 @@
         </table>
     </div>
 
-    <h1>Image</h1>
+    <h1>Images</h1>
     <div class="card col" style="width: 400px; background-color: white;">
         <p><pre>.img</pre></p>
         <img src="icon.png" width="60px" height="60px" class="img">
@@ -209,7 +211,7 @@
         <img src="icon.png" width="60px" height="60px" class="img img-blur">
     </div>
 
-    <h1>Loader</h1>
+    <h1>Loaders</h1>
     <div class="card col" style="width: 400px; background-color: white;">
         <p><pre>.loader</pre></p>
         <div class="loader loader"></div>
