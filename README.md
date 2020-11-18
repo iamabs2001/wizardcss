@@ -54,9 +54,11 @@ OR <br>
 - [x] Shake
 
 > ## :cyclone: Browsers Support 
-- [x] Chrome
-- [x] Firefox
-- [x] Safari
-- [x] Opera
-- [x] Edge
-- [ ] IE9
+| IE9 | IE10 | IE11 | Chrome | Opera | Firefox | Safari | Chrome (Android) | Mobile Safari |
+|-----|------|------|--------|-------|---------|--------|------------------|---------------|
+| -   | A    | A    | A      | A     | A       | A      | -                | -             |
+
+
+> ## :globe_with_meridians: Browser based development environment
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/iamabs2001/wizardcss)
