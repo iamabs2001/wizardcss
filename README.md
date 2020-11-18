@@ -11,6 +11,7 @@
 <a href="https://iamabs2001.github.io/wizardcss/"> Demo & Documentations </a>
 
 ``` npm i wizardcss ```
+
 ```html 
 <link rel="stylesheet" href="node_modules/wizardcss/dist/wizardcss.min.css"> 
 ```
@@ -18,6 +19,12 @@ OR <br>
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wizardcss@latest/dist/wizardcss.min.css"> 
+```
+
+OR <br>
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/wizardcss@latest/dist/wizardcss.min.css"> 
 ```
 
 # :purple_heart: Why wizardcss
@@ -53,12 +60,20 @@ OR <br>
 - [x] Hover grow
 - [x] Shake
 
-> ## :cyclone: Browsers Support 
+# :cyclone: Browsers Support 
 | IE9 | IE10 | IE11 | Chrome | Opera | Firefox | Safari | Chrome (Android) | Mobile Safari |
 |-----|------|------|--------|-------|---------|--------|------------------|---------------|
 | -   | A    | A    | A      | A     | A       | A      | -                | -             |
 
 
-> ## :globe_with_meridians: Browser based development environment
+# :globe_with_meridians: Browser based development environment
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/iamabs2001/wizardcss)
+
+# :computer: Clone & Start Development
+```shell
+git clone https://github.com/iamabs2001/wizardcss
+cd wizardcss
+npm install --save-dev
+npm start
+```
