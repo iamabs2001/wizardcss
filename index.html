@@ -8,18 +8,26 @@
     <meta name="keywords" content="Wizardcss,wizard css, wizard, css, framework, css framework"/>
     <title> Wizardcss - CSS Framework </title>
     <link rel="stylesheet" href="./dist/wizardcss.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="./icon.png">
     <style>
     .col-demo {
-        background-color: #dddddd;
-        border:1px solid gray;
+        background-color: #e6e6e6;
+        border:1px solid #bbbbbb;
         text-align: center;
         padding: 10px;
+        border-radius: 4px;
+        margin:4px;
+    }
+    textarea {
+        background-color: #292929;
+        border-radius: 2px;
+        border:2px solid rgb(4, 99, 253);
+        color:white;
     }
     </style>
 </head>
-<body style="background-color: #dddddd;margin: 40px;">
+<body style="background-color: #e6e6e6;margin: 40px;">
     <img src="icon.png" width="50px" height="50px"><br><br>
     
     <h1>Buttons</h1>
@@ -35,20 +43,19 @@
         <button class="btn btn-outline">.btn-outline</button>
         <button class="btn btn-purple ripple">.ripple</button>
         <p><pre>.btn-icon .ripple</pre></p>
-        <button class="btn-icon ripple" style="color:#f5004a"><i class="material-icons">favorite</i></button>
+        <button class="btn-icon ripple" style="color:#f5004a"><i class="fa fa-heart"></i></button>
         <p><pre>.fab .ripple</pre></p>
-        <button class="fab ripple"><i class="material-icons">delete</i></button>
+        <button class="fab ripple"><i class="fa fa-trash"></i></button>
         <p><pre>.btn-group</pre></p>
         <div class="btn-group">
-            <button class="btn"><i class="material-icons">play_arrow</i></button>
-            <button class="btn"><i class="material-icons">pause</i></button>
-            <button class="btn"><i class="material-icons">stop</i></button>
+            <button class="btn"><i class="fa fa-play"></i></button>
+            <button class="btn"><i class="fa fa-stop"></i></button>
+            <button class="btn"><i class="fa fa-step-forward"></i></button>
         </div>
     </div>
     
     <h1>Card</h1>
     <div class="card col" style="background-color: white;width: 250px">
-        <button class="btn-icon ripple"><i class="material-icons">wifi</i></button>
         <center><img src="icon.png" width="100px" height="100px"></center>
         <center><p class="card-title"> wizardcss </p></center>
         <p class="card-text">wizardcss is css framework with animations and zero dependency.
@@ -73,7 +80,7 @@
 
     <h1>Form</h1>
     <div class="card col" style="background-color: white;width: 300px">
-        <h2 align="center" class="card-title"> <i class="material-icons">login</i> Register</h2>
+        <h2 align="center" class="card-title"> <i class="fa fa-user-circle"></i> Register</h2>
         
         <label class="label">Username </label>
         <input type="text" class="form-field" placeholder=".form-field"><br>
@@ -101,19 +108,19 @@
     <h1>Animations</h1>
     <div class="card col" style="background-color: white;width: 300px;overflow: hidden;">
         <p><pre>.anim-spin</pre></p>
-        <i class="material-icons anim-spin" style="font-size: 50px">group_work</i><br>
+        <i class="fa fa-spinner anim-spin" style="font-size: 50px"></i><br>
 
         <p><pre>.anim-fade</pre></p>
-        <i class="material-icons anim-fade" style="font-size: 50px">online_prediction</i><br>
+        <i class="fa fa-wifi anim-fade" style="font-size: 50px"></i><br>
 
         <p><pre>.anim-hover-grow</pre></p>
-        <i class="material-icons anim-hover-grow" style="font-size: 50px">touch_app</i><br>
+        <i class="fa fa-hand-pointer-o anim-hover-grow" style="font-size: 50px"></i><br>
 
         <p><pre>.anim-shake</pre></p>
-        <i class="material-icons anim-shake" style="font-size: 50px">vibration</i><br>
+        <i class="fa fa-volume-control-phone anim-shake" style="font-size: 50px"></i><br>
 
         <p><pre>.anim-marquee</pre></p>
-        <i class="material-icons anim-marquee" style="font-size: 50px">airport_shuttle</i><br>
+        <i class="fa fa-ambulance anim-marquee" style="font-size: 50px"></i><br>
         <p class="card-text">its a marquee animation that slide in and out from left to right for infinite duration.</p><br>
 
     </div>
@@ -277,6 +284,40 @@
             <div class="col col-demo"> 3 of 5 </div>
             <div class="col col-demo"> 4 of 5 </div>
             <div class="col col-demo"> 5 of 5 </div>
+        </div>
+    </div>
+
+    <h1>Navbar</h1>
+    <div class="card" style="background-color: white;">
+        <div class="navbar">
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>Dashboard</a></li>
+                <li><a>About</a></li>
+                <li><a>Logout</a></li>
+            </ul>
+        </div><br>
+
+        <textarea disabled rows="10" cols="60" class="col">
+            <div class="navbar">
+                <ul>
+                    <li><a>Home</a></li>
+                    <li><a>Dashboard</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Logout</a></li>
+                </ul>
+            </div>
+        </textarea><br>
+
+        <pre>.active .right</pre>
+        <div class="navbar">
+            <ul>
+                <li class="active"><a>Wizardcss</a></li>
+                <li><a>Docs</a></li>
+                <li><a>Contribute</a></li>
+                <li><a>Get Started</a></li>
+                <li class="right"><a><i class="fa fa-sign-out"></i></a></li>
+            </ul>
         </div>
     </div>
 

@@ -27,6 +27,12 @@ OR <br>
 <link rel="stylesheet" href="https://unpkg.com/wizardcss@latest/dist/wizardcss.min.css"> 
 ```
 
+Font Awesome Icons <br>
+
+```html
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+```
+
 # :purple_heart: Why wizardcss
 
 - [x] Simple
@@ -48,6 +54,7 @@ OR <br>
 - [x] Breadcrumb
 - [x] Dropdown
 - [x] Progress
+- [x] Navbar
 
 > ## :triangular_ruler: Layouts
 - [x] Grid
