@@ -3,28 +3,29 @@
     border-spacing: 0;
     width: 100%;
     display: table;
+    border-color: #cbcbcb;
 }
 
+.table td {
+    padding: 8px;
+}
+
+.table th {
+    padding: 12px;
+}
+
+// responsive table
 .table-responsive {
     display: block;
     overflow-x: auto;
 }
 
+// striped table
 .table-striped tbody tr:nth-child(even) {
-    background-color: #e6e6e6;
+    background-color: #e0e0e0;
 }
 
-.table-bordered tr {
-    border-bottom: 1px solid #ddd;
-}
-
-.table-bordered tr:last-child {
-    border-bottom: none;
-}
-
-.table td, .table th {
-    padding: 8px 8px;
-    display: table-cell;
-    text-align: left;
-    vertical-align: top;
+// bordered table
+.table-bordered th, .table-bordered tr, .table-bordered td {
+    border: 1px solid #cbcbcb;
 }
