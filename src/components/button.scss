@@ -53,7 +53,6 @@
     background-color:$pink;
     width:48px;
     height:48px;
-    padding-top: 4px;
     border-radius:100%;
     cursor: pointer;
     background:$pink;
@@ -62,7 +61,7 @@
     color:#FFF;
     font-size:20px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    transition:.3s;  
+    transition:0.3s;  
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     user-select: none;
 }
@@ -128,9 +127,10 @@
     cursor: pointer;
     background-repeat: no-repeat;
     display: inline-block;
-    padding-top: 4px;
     width: 48px;
     height: 48px;
+    font-size: 24px;
+    padding: 1px 6px;
 }
 
 .btn-icon:hover {

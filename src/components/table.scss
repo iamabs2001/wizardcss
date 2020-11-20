@@ -1,4 +1,4 @@
-.table, .table-all {
+.table {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
@@ -11,18 +11,18 @@
 }
 
 .table-striped tbody tr:nth-child(even) {
-    background-color: rgba(216, 216, 216, 0.719);
+    background-color: #e6e6e6;
 }
 
-.table-bordered tr, .w3-table-all tr {
+.table-bordered tr {
     border-bottom: 1px solid #ddd;
 }
 
-.table-all {
-    border: 1px solid #ccc;
+.table-bordered tr:last-child {
+    border-bottom: none;
 }
 
-.table td, .table th, .table-all td, .table-all th {
+.table td, .table th {
     padding: 8px 8px;
     display: table-cell;
     text-align: left;

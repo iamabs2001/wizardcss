@@ -23,5 +23,9 @@
 
 .select {
     padding: 9px 0;
-    background-color:transparent;
+    font-size: 14px;
+}
+
+.select:focus {
+    outline: none;
 }
