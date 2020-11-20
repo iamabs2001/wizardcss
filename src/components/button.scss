@@ -1,9 +1,13 @@
+// to remove firefox dotted label on inner button
+button::-moz-focus-inner {
+    border: 0;
+}
+
 .btn {
     position: relative;
     display: inline-block;
     padding: 8px 16px;
     font-size: 14px;
-    font-weight: 800;
     line-height: 20px;
     white-space: nowrap;
     vertical-align: middle;
@@ -27,24 +31,26 @@
 
 .btn-group {
     display: flex;
-    border: .0625rem solid var(--btn-group-border-color);
-    border-radius: var(--universal-border-radius);
-    margin: var(--universal-margin);
 }
 
 .btn-group>:not(:first-child) {
-    border-left: 1px solid var(--btn-group-border-color);
     border-radius: 0px;
 }
 
+.btn-group>:not(:last-child) {
+    border-right:none;
+}
+
+.btn-group>:not(:last-child):focus {
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+}
+
 .btn-group>:first-child {
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border-radius: 0.20em 0px 0px 0.20em;
 }
 
 .btn-group>:last-child {
-    border-top-right-radius: 0.20em;
-    border-bottom-right-radius: 0.20em;
+    border-radius: 0px 0.20em 0.20em 0px;
 }
 
 .fab {
