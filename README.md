@@ -68,9 +68,9 @@ Font Awesome Icons <br>
 - [x] Shake
 
 # :cyclone: Browsers Support 
-| IE9 | IE10 | IE11 | Chrome | Opera | Firefox | Safari | Chrome (Android) | Mobile Safari |
-|-----|------|------|--------|-------|---------|--------|------------------|---------------|
-| B   | A    | A    | A      | A     | A       | A      | A                | A             |
+| IE9 | IE10 | IE11 | Chrome | Opera | Firefox | Safari | Edge |
+|-----|------|------|--------|-------|---------|--------|------|
+| B   | A    | A    | A      | A     | A       | A      | A    |
 
 
 # :globe_with_meridians: Browser based development environment
